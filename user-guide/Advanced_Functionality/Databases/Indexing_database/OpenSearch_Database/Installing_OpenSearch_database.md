@@ -39,6 +39,10 @@ Below you can find an example of how to set up an OpenSearch cluster on premises
 
 These are the main steps of the setup:
 
+> [!IMPORTANT]
+>
+> - Starting from OpenSearch 2.12 you're obligated to set an initial admin password before the installation. The detailed stepd you can find on the [demo-configuration page](https://opensearch.org/docs/latest/security/configuration/demo-configuration/#setting-up-a-custom-admin-password).
+
 1. Install OpenSearch as detailed under [Install OpenSearch from an APT repository](https://opensearch.org/docs/latest/install-and-configure/install-opensearch/debian/#install-opensearch-from-an-apt-repository).
 
 1. Follow [Step 2: (Optional) Test OpenSearch](https://opensearch.org/docs/latest/install-and-configure/install-opensearch/debian/#step-2-optional-test-opensearch) from the installation guide. Remember to also **query the plugins endpoint**.
